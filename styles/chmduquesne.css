@@ -20,6 +20,7 @@ body {
 /* Title of the resume */
 h1 {
     font-size: 55px;
+    font-family: FontAwesome;
     color: #757575;
     text-align:center;
     margin-bottom:15px;
@@ -50,6 +51,17 @@ h2:hover {
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
 }
+h3 {
+    color: #397249;
+}
+  
+h4 {
+    color: #397249;
+}
+  
+h5 {
+    color: #397249;
+}
 
 /* Definitions */
 dt {
@@ -63,6 +75,7 @@ dd {
 }
 p {
     margin-top:0;
+    color: #000;
     margin-bottom:7px;
 }
 
@@ -88,7 +101,12 @@ hr {
     color: #A6A6A6;
 }
 
+li {
+    color: #333;
+}
+
 table {
     width: 100%;
+    color: #333
 }
 </style>

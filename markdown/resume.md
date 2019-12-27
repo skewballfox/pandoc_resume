@@ -1,100 +1,87 @@
-Johnny Coder
-============
+# Joshua Ferguson<br>[](tel:228-328-8902) [](mailto:joshua.ferguson.273@gmail.com) [](https://github.com/skewballfox) [](http://www.linkedin.com/in/joshua-ferguson-b61643161/)
 
-----
+ > polymathic programmer with heavy math background looking to obtain
+ > a position where I can use my education, technical experience and penchant
+ > for teamwork and continuous learning to contribute to the development
+ > of my employers technical vision. Willing to travel or relocate.
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+## Education
 
-----
+### In Progress
 
-Education
----------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+#### 2018-2020 BSc, Computer Science ; University of Southern Mississippi
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+#### Minor: Mathematics
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+##### Important Classes
 
-    *Minor: Awesomeology*
+Data Structures
 
-Experience
-----------
+- Teacher emphasized importance of modularity of code, controlling every possible error, and human readability
+- I took this while working which allowed me to better contribute to the company as a programmer
+- The quality of my code improved greatly because of this class
 
-**Your Most Recent Work Experience:**
+Probability and Statistics 2
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+- Teacher made an initially difficult subject rather approachable
+- Class prompted me to start exploring the connections between computer science and mathematics
 
-* First item
+Introduction to Artificial Intelligence
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+- Built my first machine learning algorithm in class(naive bayes classifier)
+- Like the above, it prompted me to start exploring connections between a series of personal interest (game theory, cognitive science, human learning, etc) and computer science
 
-**That Other Job You Had**
+#### 2016-2017 Computer Science** ; Pearl River Community College
 
-Also with a short description.
+## Experience
 
-Technical Experience
---------------------
+**Innovative Imaging and Research Corp : Summer 2017, Summer 2018 : Intern**
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+- Participated in daily scrums to understand current task requirements and keep coworkers informed
+    on progress
+- Translated Matlab Code from old project to python so that the software could be run independently on a Raspberry Pi.
+- Tested capabilities of Raspberry Pi camera for image processing task using OpenCV library.
+- Gathered data to be used for calibration of drone mounted cameras.
+- Tested capabilities of cameras for low flying batch capture.
+- Assembled and tested drones, and configured necessary software, for course to be taught by coworker to air force personnel
+- Wrote code to automate image processing task
+- Programmed arduino in C to remotely control(initially via bluetooth) an actuator door for satelite calibration equipment
+- Developed a project proposal for a design which aimed to simplify an existing project (composed of 2 interdependent raspberry Pi’s hard wired to multiple sensors and actuators) by switching to a configuration using a series of independent arduinos connected over LAN to a single remotely controlled Pi. This
+    would have improved the projects resiliance to critical failure, allowed for remote diagnostics, simplified set up and maitenance, as well as lowered the associated cost.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+## Technical Experience
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+### Notable Projects
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+**[Naive Bayes Classifier](https://github.com/skewballfox/Classes/blob/master/Intro_to_AI/Programming_Assignment_2/naive_digit_classifier.py)**
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+Classifies handwritten digits stored as ascii text with 77.4% accuracy using only binary features, logs all output useful for analysis under normal run and all necessary debugging information if debug information is desired. metadata is stored in a separate JSON file.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+**[Sauron's Eye](https://github.com/skewballfox/SauronsEye)** 
 
-[ref]: https://github.com/githubuser/superlongprojectname
+Motion detection program I wrote in C++ that used the OpenCV library
+that would capture photos where a change in values above a certain size was
+detected and upload the photos to google drive. The original intent was to provide visual documentation of events in case of theft or break-in. The program is launched and ended by an unincluded script for screenlocking. I hope to add things like object detection and facial recognition using already existing solutions.
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
 
-* Human Languages:
+| Programming Language | experience with |
+|----------------------|------------------------------------------|
+| Python | web scraping, web automation, google drive integration, productivity tools, computer vision, Raspberry Pi Programming, basic data analysis, image processing, gui development, creating test data for database (with MySQL), number theory proof assistance, linear algebra |
+| Java | android development, web scraping, google calendar integration, basic gui development, database management (with MySQL) |
+| C++ | computer vision, data structures, IOT programming, robotics (via ROS) |
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+Experience with: Bash, C, Matlab, R, Julia, Rust, HTML5
 
-* Random tidbit
+| Technology, Tool, or workflow | experience with |
+|--------------------|-----------------| 
+| Development Tools | Git, Visual Studio, Android Studio, Eclipse, VS Code, Atom, Netbeans, Rstudio, Pycharm, Jupyter Notebook |
+| virtualization | virtualbox, Qemu, KVM, Xen |
+| Linux Tools | chron jobs, systemd timers, systemd services, polkit, firejail, apparmor,  NetworkManager, openresolve, unbound | 
 
-* Other sort of impressive-sounding thing you did
+## A Little More About Me
 
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+- Avid Linux Enthusiast, constantly tinkering with my OS
+- Love Rock Climbing, bouldering, swimming, trail running, and parkour
+- Wrote for the school newspaper at my junior college
